@@ -1,0 +1,10 @@
+package in.ineuron.main;
+
+public class Child extends Parent{
+	
+	public Child() {
+		
+		System.out.println("Child Class Constructor invoked...");
+	}
+
+}

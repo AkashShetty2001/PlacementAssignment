@@ -1,0 +1,27 @@
+package in.ineuron.main;
+
+import java.util.Scanner;
+
+public class BankAccount {
+	String user="";
+	public int acc=345;
+	int balance=1000;
+	
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("-----------------Welcome to the ABC Bank-------------------");
+		System.out.println("Enter your Account no :");
+		acc=sc.nextInt();
+		
+	}
+	
+	public String withdrawMoney(int amount) {
+		balance=balance-amount;		
+		return "Amount Debited successfully from account : "+acc+" debited amount is : "+amount;
+	}
+	public String depositMoney(int amount) {
+		balance=balance+amount;
+		return "Amount Credited successfully into your account : "+acc+" credited amount is : "+amount;
+	}
+}

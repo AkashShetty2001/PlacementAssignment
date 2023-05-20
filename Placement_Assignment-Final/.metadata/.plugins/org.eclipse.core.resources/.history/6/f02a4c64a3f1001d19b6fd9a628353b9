@@ -1,0 +1,9 @@
+package in.ineuron.main;
+
+public class Child {
+	
+	public Child() {
+		System.out.println("Child Class Constructor...");
+	}
+
+}

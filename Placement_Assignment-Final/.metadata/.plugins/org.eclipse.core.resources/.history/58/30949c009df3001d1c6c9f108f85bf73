@@ -1,0 +1,16 @@
+package ineuron.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CustomerServiceImpl implements ICustomerservice {
+	
+	private ICustomerDao repo;
+	
+	@Override
+	public String saveCustomer(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

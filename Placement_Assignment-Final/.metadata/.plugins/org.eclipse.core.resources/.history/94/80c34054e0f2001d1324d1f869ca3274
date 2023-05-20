@@ -1,0 +1,16 @@
+package in.ineuron.service;
+
+import in.ineuron.dao.IStudentDao;
+import in.ineuron.model.Student;
+
+public class StudentServiceImpl implements IStudentService {
+	
+	private IStudentDao dao;
+
+	@Override
+	public String addData(Student student) {
+		
+		return null;
+	}
+
+}

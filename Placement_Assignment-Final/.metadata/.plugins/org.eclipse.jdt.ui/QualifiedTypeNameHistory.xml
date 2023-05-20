@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="in.ineuron.main.EvenThread"/>
+    <fullyQualifiedTypeName name="in.ineuron.main.OddThread"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="in.ineuron.model.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="in.ineuron.dao.IStudentDao"/>
+    <fullyQualifiedTypeName name="in.ineuron.dao.StudentDaoImpl"/>
+    <fullyQualifiedTypeName name="in.ineuron.service.IStudentService"/>
+    <fullyQualifiedTypeName name="in.ineuron.service.StudentServiceImpl"/>
+    <fullyQualifiedTypeName name="in.ineuron.factory.StudentServiceFactory"/>
+    <fullyQualifiedTypeName name="in.ineuron.factory.StudentDaoFactory"/>
+    <fullyQualifiedTypeName name="in.ineuron.util.JdbcUtil"/>
+</qualifiedTypeNameHistroy>

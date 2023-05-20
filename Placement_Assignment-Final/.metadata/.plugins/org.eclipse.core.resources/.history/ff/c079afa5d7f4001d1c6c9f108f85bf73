@@ -1,0 +1,26 @@
+package in.ineuron.service;
+
+import org.springframework.stereotype.Service;
+
+import in.ineuron.dto.ProductDto;
+import in.ineuron.utils.PostResponse;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+	
+	@Autowired
+	private IProductDao repo;
+
+	@Override
+	public Integer addProduct(ProductDto productDto) {
+		
+		return null;
+	}
+
+	@Override
+	public PostResponse getAllProducts(int pageNo, int pageSize, String sortBy, String sortDir) {
+		
+		return null;
+	}
+
+}

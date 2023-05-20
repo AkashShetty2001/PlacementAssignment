@@ -1,0 +1,15 @@
+package in.ineuron.main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Shape circle = new Circle(5);
+		Shape triangle = new Triangle();
+		
+		
+		System.out.println(triangle.calculateArea());
+		System.out.println(triangle.calculatePerameter());
+		
+	}
+
+}

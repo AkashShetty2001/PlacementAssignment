@@ -1,0 +1,5 @@
+package in.ineuron.factory;
+
+public interface IStudentServiceFactory {
+
+}

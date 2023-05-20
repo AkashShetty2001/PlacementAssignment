@@ -1,0 +1,13 @@
+package in.ineuron.service;
+
+import in.ineuron.dto.ProductDto;
+
+public class ProductServiceImpl implements IProductService {
+
+	@Override
+	public Integer addProduct(ProductDto productDto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

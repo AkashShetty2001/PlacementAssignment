@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>16-ServletSession</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Display</display-name>
+    <servlet-name>Display</servlet-name>
+    <servlet-class>in.ineuron.main.Display</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Display</servlet-name>
+    <url-pattern>/disp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>First</display-name>
+    <servlet-name>First</servlet-name>
+    <servlet-class>in.ineuron.main.First</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>First</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Second</display-name>
+    <servlet-name>Second</servlet-name>
+    <servlet-class>in.ineuron.main.Second</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Second</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+</web-app>

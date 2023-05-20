@@ -1,0 +1,31 @@
+package in.ineuron.service;
+
+import in.ineuron.model.Product;
+
+public class ProductServiceImpl implements IProductService {
+
+	@Override
+	public Integer addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getProductByName(String productName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateProductByName(String productName, Double updatedPrice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteByProductId(Integer productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

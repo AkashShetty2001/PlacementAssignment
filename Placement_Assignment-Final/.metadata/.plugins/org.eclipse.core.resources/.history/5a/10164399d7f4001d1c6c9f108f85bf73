@@ -1,0 +1,20 @@
+package in.ineuron.service;
+
+import in.ineuron.dto.ProductDto;
+import in.ineuron.utils.PostResponse;
+
+public class ProductServiceImpl implements IProductService {
+
+	@Override
+	public Integer addProduct(ProductDto productDto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public PostResponse getAllProducts(int pageNo, int pageSize, String sortBy, String sortDir) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

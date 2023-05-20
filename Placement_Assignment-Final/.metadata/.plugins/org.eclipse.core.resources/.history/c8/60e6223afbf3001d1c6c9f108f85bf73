@@ -1,0 +1,19 @@
+package in.ineuron.service;
+
+import in.ineuron.model.User;
+
+public class UserServiceImpl implements IUserService {
+
+	@Override
+	public Integer registerUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String authUser(String email, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package in.ineuron.service;
+
+import in.ineuron.model.User;
+
+public interface IStudentService {
+
+	public Integer registerUser(Student user);
+	
+	public String authUser(String email , String password);
+	
+	
+	
+}

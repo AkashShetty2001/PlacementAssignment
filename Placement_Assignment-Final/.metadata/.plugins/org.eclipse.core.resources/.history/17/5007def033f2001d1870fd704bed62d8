@@ -1,0 +1,14 @@
+package in.ineuron.main;
+
+public class PostgreSelect {
+	
+
+	String url = "jdbc:mysql:///ineuronDB";
+	String user = "root";
+	String password = "Salam@785";
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

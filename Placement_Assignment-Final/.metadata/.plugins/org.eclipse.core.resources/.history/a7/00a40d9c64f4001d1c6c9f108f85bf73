@@ -1,0 +1,38 @@
+package in.ineuron.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.Student;
+
+
+
+@Service
+public class StudentServiceImpl implements IStudentService {
+
+	@Override
+	public String saveStudent(Student student) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Student> getAllStudent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Student> getStudentById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+	
+
+}

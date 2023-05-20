@@ -1,0 +1,11 @@
+package in.ineuron.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Users {
+
+	private Integer userId;
+	private String userName;
+	private Orders order;
+}

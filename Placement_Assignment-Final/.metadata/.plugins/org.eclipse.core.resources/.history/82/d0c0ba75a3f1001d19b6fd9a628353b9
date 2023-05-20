@@ -1,0 +1,10 @@
+package in.ineuron.main;
+
+public class Child {
+	
+	public Child() {
+		super();
+		System.out.println("Child Class Constructor...");
+	}
+
+}

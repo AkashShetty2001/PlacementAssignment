@@ -1,0 +1,11 @@
+package in.ineuron.main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Shape circle = new Circle(5);
+		shape triangle = new Triangle();
+		
+	}
+
+}

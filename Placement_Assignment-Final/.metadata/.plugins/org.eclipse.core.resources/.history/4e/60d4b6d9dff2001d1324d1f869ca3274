@@ -1,0 +1,5 @@
+package in.ineuron.dao;
+
+public interface IStudentDao {
+	public String addData(Student student);
+}

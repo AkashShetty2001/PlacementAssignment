@@ -1,0 +1,18 @@
+package in.ineuron.main;
+
+import java.util.Scanner;
+
+public class MainClass {
+
+	public static void main(String[] args) throws Exception {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter A Positive No : ");
+		int number=sc.nextInt();
+		if(sc.nextInt() < 0) {
+			throw new Exception("NegativeNumber Exception");
+		}
+
+	}
+
+}

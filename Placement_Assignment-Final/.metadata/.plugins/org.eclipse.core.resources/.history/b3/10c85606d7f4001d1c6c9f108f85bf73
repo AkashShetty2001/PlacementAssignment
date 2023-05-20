@@ -1,0 +1,7 @@
+package in.ineuron.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface IProductDao extends CrudRepository<Product, Integer> {
+
+}

@@ -1,0 +1,9 @@
+package in.ineuron.service;
+
+import in.ineuron.model.Orders;
+import in.ineuron.model.Users;
+
+public interface IOrdersService {
+	public String saveOrder(Orders order);
+	public String findByOrder(Orders order);
+}

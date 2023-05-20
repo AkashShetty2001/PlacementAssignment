@@ -1,0 +1,20 @@
+package ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import ineuron.dao.ICustomerDao;
+
+@Service
+public class CustomerServiceImpl implements ICustomerservice {
+	
+	@Autowired
+	private ICustomerDao repo;
+	
+	@Override
+	public String saveCustomer(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

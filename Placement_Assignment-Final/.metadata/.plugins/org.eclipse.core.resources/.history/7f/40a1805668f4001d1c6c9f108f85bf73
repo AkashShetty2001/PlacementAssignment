@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="16-ServletSession">
+        <property name="context-root" value="16-ServletSession"/>
+    </wb-module>
+</project-modules>

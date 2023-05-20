@@ -1,0 +1,6 @@
+package ineuron.service;
+
+public interface ICustomerservice {
+	public String saveCustomer(Student student);
+
+}

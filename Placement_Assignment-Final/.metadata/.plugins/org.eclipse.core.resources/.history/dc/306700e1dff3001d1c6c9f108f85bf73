@@ -1,0 +1,5 @@
+package in.ineuron.service;
+
+public interface IUserService {
+	public String findByUser(User user);
+}

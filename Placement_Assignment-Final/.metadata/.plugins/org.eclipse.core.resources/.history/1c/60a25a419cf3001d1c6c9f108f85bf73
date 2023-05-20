@@ -1,0 +1,11 @@
+package ineuron.model;
+
+public class Customer {
+	
+	private Integer id;
+	private String first_name;
+	private String last_name;s
+	private String email;
+	
+
+}

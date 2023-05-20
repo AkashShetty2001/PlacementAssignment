@@ -1,0 +1,62 @@
+package in.ineuron.main;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamClass {
+	public static void main(String[] args) {
+
+		// create a list of customers with their details
+        List<Customer> customers = new ArrayList<>();
+        customers.add(new Customer("John", 25, "M", "USA", 15000));
+        customers.add(new Customer("Mary", 32, "F", "UK", 20000));
+        customers.add(new Customer("Mike", 45, "M", "USA", 30000));
+
+		// filter the dataset to only include even numbers
+		List<Integer> evenNumbers = numbers.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());
+
+		// sort the dataset in descending order
+		List<Integer> descendingOrder = numbers.stream().sorted((a, b) -> b.compareTo(a)).collect(Collectors.toList());
+
+		// print the results
+		System.out.println("Even numbers: " + evenNumbers);
+		System.out.println("Descending order: " + descendingOrder);
+	}
+}
+
+class Customer {
+	private String name;
+	private int age;
+	private String gender;
+	private String country;
+	private int income;
+
+	public Customer(String name, int age, String gender, String country, int income) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.country = country;
+		this.income = income;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public int getIncome() {
+		return income;
+	}
+}

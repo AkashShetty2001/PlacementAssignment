@@ -1,0 +1,17 @@
+package in.ineuron.service;
+
+import org.springframework.stereotype.Service;
+
+import in.ineuron.model.Users;
+
+
+@Service
+public class UserImpl implements IUserService {
+	
+	@Override
+	public String findByUser(Users user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

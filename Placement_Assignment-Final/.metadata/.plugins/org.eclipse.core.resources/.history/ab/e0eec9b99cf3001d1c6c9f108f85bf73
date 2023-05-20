@@ -1,0 +1,11 @@
+package ineuron.service;
+
+public class CustomerServiceImpl implements ICustomerservice {
+
+	@Override
+	public String saveCustomer(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

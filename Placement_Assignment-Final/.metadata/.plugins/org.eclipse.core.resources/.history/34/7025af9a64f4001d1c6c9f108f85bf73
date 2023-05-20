@@ -1,0 +1,16 @@
+package in.ineuron.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.ineuron.dao.IUserDao;
+import in.ineuron.model.User;
+
+@Service
+public class StudentServiceImpl implements IStudentService {
+	
+	
+	
+	
+
+}

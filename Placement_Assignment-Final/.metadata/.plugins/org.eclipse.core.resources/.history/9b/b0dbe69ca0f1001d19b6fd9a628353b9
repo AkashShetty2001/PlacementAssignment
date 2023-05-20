@@ -1,0 +1,37 @@
+package in.ineuron.main;
+
+public class Triangle implements Shape {
+	
+	private double length;
+	private double breadth;
+	private double height;
+	
+	public double getLength() {
+		return length;
+	}
+
+	public void setLength(double length) {
+		this.length = length;
+	}
+
+	public double getBreadth() {
+		return breadth;
+	}
+
+	public void setBreadth(double breadth) {
+		this.breadth = breadth;
+	}
+
+	@Override
+	public double calculateArea() {
+		
+		return ;
+	}
+
+	@Override
+	public double calculatePerameter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,13 @@
+package in.ineuron.service;
+
+import in.ineuron.model.Users;
+
+public class UserImpl implements IUserService {
+
+	@Override
+	public String findByUser(Users user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

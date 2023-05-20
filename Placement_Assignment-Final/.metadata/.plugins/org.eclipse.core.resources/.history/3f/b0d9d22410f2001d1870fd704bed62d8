@@ -1,0 +1,30 @@
+package in.ineuron.main;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamClass {
+	public static void main(String[] args) {
+		
+		 // create a large dataset of integers
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 1; i <= 1000000; i++) {
+            numbers.add(i);
+        }
+
+        // filter the dataset to only include even numbers
+        List<Integer> evenNumbers = numbers.stream()
+                .filter(n -> n % 2 == 0)
+                .collect(Collectors.toList());
+
+        // sort the dataset in descending order
+        List<Integer> descendingOrder = numbers.stream()
+                .sorted((a, b) -> b.compareTo(a))
+                .collect(Collectors.toList());
+
+        // print the results
+        System.out.println("Even numbers: " + evenNumbers);
+        System.out.println("Descending order: " + descendingOrder);
+	}
+}

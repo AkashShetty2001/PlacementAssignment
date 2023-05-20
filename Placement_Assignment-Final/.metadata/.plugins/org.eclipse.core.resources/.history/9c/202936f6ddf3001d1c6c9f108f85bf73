@@ -1,0 +1,18 @@
+package in.ineuron.model;
+
+import javax.persistence.Entity;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter
+public class Orders {
+
+	private Integer orderId;
+	private String orderDetail;
+	
+	
+	private Users user;
+}

@@ -1,0 +1,22 @@
+package in.ineuron.main;
+
+public class BankAccount {
+	
+	
+	public static void main(String[] args) {
+		String user="";
+		int acc=4563;
+		int balance=1000;
+		
+		
+	}
+	
+	public String withdrawMoney() {
+		
+		
+		return null;
+	}
+	public String depositMoney() {
+		return null;
+	}
+}

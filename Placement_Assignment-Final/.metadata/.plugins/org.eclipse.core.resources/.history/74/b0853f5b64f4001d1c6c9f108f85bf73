@@ -1,0 +1,12 @@
+package in.ineuron.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.ineuron.model.Student;
+import in.ineuron.model.User;
+
+public interface IStudentDao  extends JpaRepository<Student, Integer>{
+	
+
+	
+}

@@ -1,0 +1,38 @@
+package in.ineuron;
+
+import java.util.Set;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.ineuron.model.Orders;
+import in.ineuron.model.Users;
+import in.ineuron.service.IUserService;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(Application.class, args);
+		
+		IUserService service = context.getBean(IUserService.class);
+		Users user = new Users("salam");
+		
+		
+		Orders order1 = new Orders("briyani");
+		Orders order2 = new Orders("tikka");
+		Orders order3 = new Orders("vada pav");
+		
+		order1.setUser(user);
+		order2.setUser(user);
+		order3.setUser(user);
+		
+		Set<Orders> orderDetails = Set.of(order1,order2, order3);
+		user.setOrder(orderDetails);
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package in.ineuron.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import in.ineuron.service.IOrdersService;
+import in.ineuron.service.IUserService;
+
+@Controller
+public class UserOrderController {
+	
+	@Autowired
+	private IUserService userService;
+	@Autowired
+	private IOrdersService orderService;
+
+}

@@ -1,0 +1,17 @@
+package in.ineuron.dao;
+
+import in.ineuron.model.Student;
+
+public class StudentDaoImpl implements IStudentDao {
+
+	Connection con=null;
+	PreparedStatement pstmt=null;
+	ResultSet resultSet=null;
+	
+	@Override
+	public String addData(Student student) {
+		
+		return null;
+	}
+
+}

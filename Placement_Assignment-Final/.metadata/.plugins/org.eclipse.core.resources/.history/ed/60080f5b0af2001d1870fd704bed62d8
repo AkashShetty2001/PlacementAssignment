@@ -1,0 +1,35 @@
+package in.ineuron.main;
+
+import java.util.Scanner;
+
+public class BankAccount {
+	
+	 private String accNo;
+	 private double balance;
+	 
+	 public BankAccount(String accNo, double balance) {
+		this.accNo=accNo;
+		this.balance=balance;
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("-----------------Welcome to the ABC Bank-------------------");
+		System.out.println("Enter your Account no :");
+		int accNo=sc.nextInt();
+		System.out.println("Enter your PIN no :");
+		int pinNo=sc.nextInt();
+		if(accNo==acc && pinNo==pin) {
+			
+		}		
+	}
+	
+	public String withdrawMoney(double amount) {
+		balance=balance-amount;		
+		return "Amount Debited successfully from account : "+acc+" debited amount is : "+amount;
+	}
+	public String depositMoney(int amount) {
+		balance=balance+amount;
+		return "Amount Credited successfully into your account : "+acc+" credited amount is : "+amount;
+	}
+}

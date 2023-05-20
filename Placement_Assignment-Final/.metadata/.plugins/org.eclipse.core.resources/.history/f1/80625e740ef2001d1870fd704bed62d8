@@ -1,0 +1,34 @@
+package in.ineuron.main;
+
+interface Car{
+	public void carName();
+	public void carPrice();
+	public void carModel();
+	
+	
+}
+
+class Mercdex implements Car{
+
+	@Override
+	public void carName() {
+		System.out.println("Mercedez car");
+		
+	}
+
+	@Override
+	public void carPrice() {
+		System.out.println("Car Price is 240000 $");
+		
+	}
+
+	@Override
+	public void carModel() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+public class MainClass {
+
+}

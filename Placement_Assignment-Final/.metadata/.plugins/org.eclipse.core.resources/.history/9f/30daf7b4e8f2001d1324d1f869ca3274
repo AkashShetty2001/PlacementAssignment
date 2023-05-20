@@ -1,0 +1,7 @@
+package in.ineuron.service;
+
+import in.ineuron.model.Student;
+
+public class IStudentService {
+	public String addData(Student student);
+}

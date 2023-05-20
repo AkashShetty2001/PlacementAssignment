@@ -1,0 +1,56 @@
+package in.ineuron.main;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Random;
+
+public class ProducerConsumerThread {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Producer implements Runnable{
+	private Queue<Integer> queue;
+	private int queSize;
+	
+	
+	public Producer(Queue<Integer> queue, int queSize) {
+		this.queue = queue;
+		this.queSize = queSize;
+	}
+
+
+	@Override
+	public void run() {
+		Random random = new Random();
+		
+		while(queue.size()==queSize) {
+			try {
+				queue.wait();
+			}
+			catch(InterruptedException e) {
+				e.printStackTrace();
+			}
+			
+			int num = random.nextInt(50);
+			
+		}
+		
+		
+		
+	}
+	
+}
+
+class Consumer implements Runnable{
+
+	@Override
+	public void run() {
+	
+		
+	}
+	
+}

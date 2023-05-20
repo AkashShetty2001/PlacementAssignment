@@ -1,0 +1,12 @@
+package in.ineuron.main;
+
+class MyThread extends Thread{
+	@Override
+	public void run() {
+		
+	}
+}
+
+public class TwoThreads {
+	
+}

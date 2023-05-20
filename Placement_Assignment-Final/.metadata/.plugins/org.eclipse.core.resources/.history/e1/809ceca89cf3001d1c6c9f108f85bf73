@@ -1,0 +1,5 @@
+package ineuron.service;
+
+public interface ICustomerservice {
+
+}

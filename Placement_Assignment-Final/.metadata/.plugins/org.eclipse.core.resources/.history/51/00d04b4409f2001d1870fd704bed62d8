@@ -1,0 +1,22 @@
+package in.ineuron.main;
+
+public class BankAccount {
+	String user="";
+	int acc=4563;
+	int balance=1000;
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public String withdrawMoney(int amount) {
+		balance=balance-amount;		
+		return "Amount Debited successfully from account : "+acc+" debited amount is : "+amount;
+	}
+	public String depositMoney(int amount) {
+		balance=balance+amount;
+		return "Amount Credited successfully into your account : "+acc+" creedited amount is : "+amount;;
+	}
+}

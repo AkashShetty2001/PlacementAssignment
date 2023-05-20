@@ -1,0 +1,6 @@
+127.0.0.1 - - [17/May/2023:09:44:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/May/2023:09:44:42 +0530] "GET /16-ServletSession/ HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [17/May/2023:09:44:50 +0530] "GET /16-ServletSession/form1 HTTP/1.1" 404 778
+0:0:0:0:0:0:0:1 - - [17/May/2023:09:44:57 +0530] "GET /16-ServletSession/form1.html HTTP/1.1" 200 728
+0:0:0:0:0:0:0:1 - - [17/May/2023:09:45:05 +0530] "GET /16-ServletSession/first?sname=Salam&sage=23 HTTP/1.1" 200 749
+0:0:0:0:0:0:0:1 - - [17/May/2023:09:45:13 +0530] "POST /16-ServletSession/second HTTP/1.1" 200 744

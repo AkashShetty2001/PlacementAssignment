@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Login Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+          integrity="sha512-GveJjKAGh9ZpHzV0zshhJ90C7rj3yyT6TQc+/dqzRmLsMTsTz9jqFmVtdss/1Fp96Vh/ARMMuuj7VwNvEgjNtg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Login</h1>
+
+    <form action="/login" method="post">
+
+        <!-- Email Field -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary">Login</button>
+
+    </form>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"
+        integrity="sha512-6zzyU3q4F6zXsy6m+aQeCv0MNq/JrOJlT26T7+a16kRucBc7jB9X9twfwb0pUhvNEfJ7VfCokg+yw7/KOjHt8Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
